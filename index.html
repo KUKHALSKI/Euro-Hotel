@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!----------ICONS---------->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!----------FAVICON---------->
+
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Euro Hotel</title>
+  </head>
+  <body>
+    <!----------HEADER---------->
+    <header class="header" id="home">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+      </nav>
+      <div class="section__container header__container">
+        <p>Simple - Unique - Friendly</p>
+        <h1>Make Yourself At Home<br />In Our <span>Hotel</span>.</h1>
+      </div>
+    </header>
+
+    <!----------BOOKING BOX---------->
+
+    <section class="section__container booking__container">
+      <form action="/" class="booking__form">
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-in">CHECK-IN</label>
+            <p>14:00</p>
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-out">CHECK-OUT</label>
+            <p>12:00</p>
+          </div>
+        </div>
+        <div class="input__group input__btn">
+          <a href="https://www.booking.com/hotel/ge/euro-kutaisi.en-gb.html?label=en-ge-booking-desktop-yQpPBuPmCYPIRLKRzinajgS652796015694%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9069844%3Ali%3Adec%3Adm&gclid=Cj0KCQiA-aK8BhCDARIsAL_-H9m2Qp_JFaUtFR0n3ezSgOw9kfs4HI8ORuDOwarcvJoMkFdDsziYc2gaArxEEALw_wcB&aid=2311236&ucfs=1&arphpl=1&activeTab=main" 
+          class="btn" target="_blank">Book Now</a>
+        </div>
+      </form>
+    </section>
+
+    <!----------ABOUT BOX---------->
+
+    <section class="section__container about__container" id="location">
+      <div class="about__map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23619.72834563966!2d42.7021014!3d42.26857405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405c8d71c3bb787b%3A0xe2cdd5454d54d0cb!2sEuro%20Hotel%20Kutaisi!5e0!3m2!1sen!2sge!4v1739696368993!5m2!1sen!2sge"
+         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">ABOUT US</p>
+        <h2 class="section__header">The Best Holidays Start Here!</h2>
+        <p class="section__description">
+          With a focus on quality accommodations, personalized experiences, and
+          seamless booking, our platform is dedicated to ensuring that every
+          traveler embarks on their dream holiday with confidence and
+          excitement.
+        </p>
+      </div>
+    </section>
+
+    <!----------ROOM BOX---------->
+
+    <section class="section__container room__container" id="rooms">
+      <p class="section__subheader">OUR LIVING ROOM</p>
+      <h2 class="section__header">The Most Memorable Rest Time Starts Here.</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-1.jpg" alt="room" />           
+          </div>
+          <div class="room__card__details">
+            <h4>Budget Double Room</h4>
+            <p>
+              This double room includes a private bathroom with a shower, 
+              a bidet and a hairdryer. The double room offers air conditioning, 
+              a private entrance, a tea and coffee maker, 
+              as well as a flat-screen TV. The unit has 1 bed.
+            </p>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-2.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Double Room with Balcony</h4>
+            <p>
+              The double room offers air conditioning, 
+              a private entrance, a balcony with city views 
+              as well as a private bathroom boasting a shower. The unit has 1 bed.
+            </p>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-3.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Family Room with Balcony</h4>
+            <p>
+              The family room features air conditioning,
+              a private entrance, a balcony with city 
+              views as well as a private bathroom boasting a shower. The unit has 3 beds.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="rooms.html"><button class="btn1">Gallery of rooms</button></a>
+    </section>
+
+    <!----------SERVICE BOX---------->
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">SERVICES</p>
+          <h2 class="section__header">Strive Only For The Best.</h2>
+          <ul class="service__list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+              High Class Security
+            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>
+              24 Hours Room Service
+            </li>
+            <li>
+              <span><i class="fa-solid fa-wine-bottle"></i></span>
+              Home Made Wine
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+              Tourist Guide Support
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!----------BANNER BOX---------->
+
+    <section class="section__container banner__container">
+      <div class="banner__content">
+        <div class="banner__card">
+          <h4>10</h4>
+          <p>Properties Available</p>
+        </div>
+        <div class="banner__card">
+          <h4>1000+</h4>
+          <p>Bookings Completed</p>
+        </div>
+        <div class="banner__card">
+          <h4>1000+</h4>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+      <a href="https://www.booking.com/hotel/ge/euro-kutaisi.en-gb.html?label=en-ge-booking-desktop-yQpPBuPmCYPIRLKRzinajgS652796015694%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9069844%3Ali%3Adec%3Adm&gclid=Cj0KCQiA-aK8BhCDARIsAL_-H9m2Qp_JFaUtFR0n3ezSgOw9kfs4HI8ORuDOwarcvJoMkFdDsziYc2gaArxEEALw_wcB&aid=2311236&ucfs=1&arphpl=1&activeTab=main#tab-reviews"
+      target="_blank"><button class="btn1">Guest reviews</button></a>
+    </section>
+
+    <!----------MENU BOX---------->
+
+    <section class="explore" id="menu">
+      <p class="section__subheader">EXPLORE</p>
+      <h2 class="section__header">Our Breakfast Menu.</h2>
+      <div class="explore__bg" >
+        <div class="explore__content" >      
+             <h2>A New Menu Is Available In Our Hotel</h>
+             <a  class="btn" onclick="toggle()">Continue</a>
+        </div>
+      </div>
+      <div id="popup">
+
+        <h1>Hotel Menu</h1>
+        <p>
+          Boiled egg<br> 
+          Fried egg <br> 
+          Chicken sausage <br> 
+          Mixed sausage <br> 
+          Imeretian cheese (Homemade) <br> 
+          Smoked Sulguni cheese <br> 
+          Sausage<br> 
+          Beckon<br> 
+          Souses(Ketchup & Mayo) <br> 
+          Olive(Black & Green) <br> 
+          Khachapuri <br> 
+          Pizza <br> 
+          Meat Rolls(Mixed)<br> 
+          Toast Bread<br> 
+          Tomato <br> 
+          Cucumber <br> 
+          Fruits(Seasonal)<br> 
+          Milk<br> 
+          Sour Cream<br> 
+          Butter <br> 
+          Coffee <br> 
+          Tea <br> 
+          Juice 
+        </p> <br>
+        <a class="btn" onclick="toggle()">Close</a>
+
+      </div>
+    </section>
+
+    <!----------Footer BOX---------->
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo1">
+            <a href="#home"><img src="assets/11n.png" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Discover a world of comfort, luxury, and adventure as you explore
+            our curated selection of hotels, making every moment of your getaway
+            truly extraordinary.
+          </p>
+          <a href="https://www.booking.com/hotel/ge/euro-kutaisi.en-gb.html?label=en-ge-booking-desktop-yQpPBuPmCYPIRLKRzinajgS652796015694%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9069844%3Ali%3Adec%3Adm&gclid=Cj0KCQiA-aK8BhCDARIsAL_-H9m2Qp_JFaUtFR0n3ezSgOw9kfs4HI8ORuDOwarcvJoMkFdDsziYc2gaArxEEALw_wcB&aid=2311236&ucfs=1&arphpl=1&activeTab=main" 
+          class="btn" target="_blank">Book Now</a>
+        </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="https://www.google.com/maps/place/Euro+Hotel+Kutaisi/@42.272117,42.706947,13z/data=!4m9!3m8!1s0x405c8d71c3bb787b:0xe2cdd5454d54d0cb!5m2!4m1!1i2!8m2!3d42.2686872!4d42.6959603!16s%2Fg%2F11ssxdc0ps?hl=en&entry=ttu&g_ep=EgoyMDI1MDIxOS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"
+              target="_blank">Browse Destinations</a></li>
+            <li><a href="https://www.booking.com/hotel/ge/euro-kutaisi.en-gb.html?label=en-ge-booking-desktop-yQpPBuPmCYPIRLKRzinajgS652796015694%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9069844%3Ali%3Adec%3Adm&gclid=Cj0KCQiA-aK8BhCDARIsAL_-H9m2Qp_JFaUtFR0n3ezSgOw9kfs4HI8ORuDOwarcvJoMkFdDsziYc2gaArxEEALw_wcB&aid=2311236&ucfs=1&arphpl=1&activeTab=main#tab-reviews"
+              target="_blank">Customer Reviews & Ratings</a></li>
+            <li><a href="#">Travel Tips & Guides</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR SERVICES</h4>
+          <ul class="footer__links">
+            <li><a>Flexible Booking Options</a></li>
+            <li><a>Airport Transfers</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACT US</h4>
+          <ul class="footer__links">
+            <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqXxwmBhgXCzlWczTSrKDskDmmnTkBWxPcsQntGVKrvdvZkVZGbKcFfbzRSXxWKVZngcCL"
+              target="_blank">eurohotel777@gmail.com</a></li>
+            <li><a>+995 591-11-67-25</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/profile.php?id=100092630994243" target="_blank" title="facebook"><img src="assets/facebook.png" alt="facebook" /></a>
+            <a href="https://www.instagram.com/euro_hotel_kutaisi/?fbclid=IwY2xjawIemeFleHRuA2FlbQIxMAABHTvzZDe6wlmQCGlMSNZSv1IGarVFcZJRvij_WfIqHVXb9ENi2oakr6h-fw_aem_Vvt1h4_spUOPMG8QA_MPIg#"
+             target="_blank" title="instagram"><img src="assets/instagram.png" alt="instagram" /></a>
+             <a href="https://wa.me/+995591116725" target="_blank" title="whatsapp"><img src="assets/whatsapp.png" alt="whatsapp" /></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Euro Hotel. All rights reserved.
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    <script type="text/javascript">
+      function toggle(){
+        var popup=document.getElementById('popup');
+        popup.classList.toggle('active');
+      }
+    </script>
+    <a class="gotopbtn" href="#"><i class="fa-solid fa-angle-up"></i></a>
+    <a class="gotopbtn2" href="https://wa.me/+995591116725" target="_blank" title="whatsapp"><img src="assets/whatsapp.png" alt="whatsapp" /></i></a>
+  </body>
+</html>
